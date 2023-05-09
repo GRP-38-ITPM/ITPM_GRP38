@@ -65,7 +65,7 @@ function Add() {
             onChange={(e)=>setCampaignTeam(e.target.value)} required/>
         </Form.Group>
         <Form.Group className="mb-2">
-            <Form.Label>Quantity (in Kg)</Form.Label>
+            <Form.Label>Quantity in Kilogram </Form.Label>
             <Form.Control type="number" placeholder="Enter Quantity" 
             onChange={(e)=>setQuantity(e.target.value)} required/>
         </Form.Group>
