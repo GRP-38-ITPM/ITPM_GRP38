@@ -1,32 +1,23 @@
 import logo from "./logo.svg";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-
-import HomeComponent from "./components/HomeComponent";
-import ListUserComponent from "./components/ListUserComponent";
-import HeaderComponent from "./components/HeaderComponent";
-import FooterComponent from "./components/FooterComponent";
-import ProductComponent from "./components/ProductComponent";
-import RegisterComponent from "./components/RegisterComponent";
-import LoginComponent from "./components/LoginComponent";
+import Home from "./pages/Home";
+import Header from "./pages/Header";
+import Footer from "./pages/Footer";
+import ViewProduct from "./pages/ViewProduct";
 
 function App() {
   return (
     <div>
- <HeaderComponent/>
       <Router>
-
+      <Header />
         <Routes>
-
-          <Route exact path="/" element={<HomeComponent/>} />
-          <Route exact path="/register" element={<RegisterComponent/>} />
-          <Route exact path="/login" element={<LoginComponent/>} />
-          <Route exact path="/user" element={<ListUserComponent />} />
-          <Route exact path="/viewProduct" element={<ProductComponent />} />
-
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/viewProduct" element={<ViewProduct />} />
         </Routes>
+        <Footer />
       </Router>
-      <FooterComponent />
+
     </div>
   );
 }
