@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Header() {
   return (
-      <nav class="navbar navbar-expand-lg navbar-light py-3 " id="mainNav">
-        <div class="container px-4 px-lg-5">
-          <a class="navbar-brand" href="#">
+      <nav className="navbar navbar-expand-lg navbar-light py-3 " id="mainNav">
+        <div className="container px-4 px-lg-5">
+          <a className="navbar-brand" href="#">
             <img
               src={require("../assets/images/logo2New.png")}
               height="90"
@@ -13,7 +13,7 @@ export default function Header() {
           </a>
 
           <button
-            class="navbar-toggler navbar-toggler-right"
+            className="navbar-toggler navbar-toggler-right"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarResponsive"
@@ -21,37 +21,42 @@ export default function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ms-auto my-2 my-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="/">
+          <div className="collapse navbar-collapse" id="navbarResponsive">
+            <ul className="navbar-nav ms-auto my-2 my-lg-0">
+              <li className="nav-item">
+                <a className="nav-link" href="/">
                   Home
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/informer">
+              <li className="nav-item">
+                <a className="nav-link" href="/informer">
                   Informer
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/supplier">
+              <li className="nav-item">
+                <a className="nav-link" href="/supplier">
                   Supplier
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/collector">
+              <li className="nav-item">
+                <a className="nav-link" href="/collector">
                   Collector
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/Recyler">
+              <li className="nav-item">
+                <a className="nav-link" href="/Recyler">
                   Recyler
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/register">
+              <li className="nav-item">
+                <a className="nav-link" href="/employeesList">
+                  Employees
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/register">
                   SignIn
                 </a>
               </li>
