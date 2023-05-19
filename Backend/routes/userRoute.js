@@ -58,14 +58,14 @@ router.post("/user",(req, res) => {
   const profile_name = req.body.profile_name;
   const email_id = req.body.email_id;
   const contact_no = req.body.contact_no;
-  const profile_description = req.body.profile_description;
+  const position = req.body.position;
   const password = req.body.password;
 
   const newuser = new userModel({
     profile_name,
     email_id,
     contact_no,
-    profile_description,
+    position,
     password
   });
 
@@ -111,5 +111,7 @@ router.delete("/user/:id",(req,res)=>{
         handleError(res, error);
     }
 });
+
+
 
 module.exports = router;
