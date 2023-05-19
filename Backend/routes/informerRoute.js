@@ -59,7 +59,7 @@ router.post("/information",(req, res) => {
   const last_Name = req.body.last_Name;
   const address = req.body.address;
   const contact_no = req.body.contact_no;
-  const qty = req.body.qty;
+  const informer_Name = req.body.informer_Name;
   const description = req.body.description;
 
   const newInformation = new informationModel({
@@ -67,7 +67,7 @@ router.post("/information",(req, res) => {
     last_Name,
     address,
     contact_no,
-    qty,
+    informer_Name,
     description,
   });
 
