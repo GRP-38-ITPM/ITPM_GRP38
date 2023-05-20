@@ -6,6 +6,6 @@ SDG          :Responsible Consumption and production
 
 Team Members :
 Dalaxshan M(Team Leader):      IT20655402
-Subanista T             :      IT20660970
 Thulaxan U              :      IT20645298
 Senthalan V             :      IT20623968
+Subanista T             :      IT20660970
