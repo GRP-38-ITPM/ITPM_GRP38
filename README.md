@@ -3,7 +3,7 @@ Responsible Consumption and Production
 IT20655402 : M.Dalaxshan(dalaxshan)
 IT20645298 : Thulaxan U (Thulaxan)
 IT20623968 : Senthalan V (Senthalan)
-
+IT20660970 :Subanista
 Responsible construction and recycling are two important aspects of sustainable development and environmental conservation. Here's how they relate to each other:
 
 1. Recycling in Construction: Recycling plays a crucial role in responsible construction practices. Construction projects generate a significant amount of waste, including materials like concrete, wood, metal, plastics, and packaging. Recycling these materials helps reduce the environmental impact of construction by conserving resources, reducing energy consumption, and minimizing waste sent to landfills. Construction companies can implement recycling programs on their sites, segregating and collecting recyclable materials for proper processing and reuse.
