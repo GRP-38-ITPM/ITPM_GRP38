@@ -53,7 +53,7 @@ const editGarbages=(id,garbage,cteam,quantity,status)=>{
                 return{
 
                     statusCode:200,
-                    message:'Campaign details edited sucessfullt'
+                    message:'Campaign details edited successfully'
                 }
             }
         }
@@ -66,7 +66,7 @@ const deleteGarbages=(id)=>{
             if(result){
                 return{
                     statusCode:200,
-                    message:'Deleted sucessfully'
+                    message:'Deleted successfully'
                 }
             }else{
                 return{
